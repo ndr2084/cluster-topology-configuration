@@ -1,5 +1,3 @@
----
-
 # cluster-topology-configuration
 
 A simple way to add racks to a cluster. Compatible with [qzweng/kubernetes-scheduler-simulator](https://github.com/qzweng/kubernetes-scheduler-simulator).
