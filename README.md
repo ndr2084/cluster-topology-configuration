@@ -15,13 +15,13 @@ A simple way to add racks to a cluster. Compatible with [qzweng/kubernetes-sched
 ## Quick-Start
 - **In your terminal:** $ python3 process_openb_dir.py ./openb_pod_list_cpu037/ --rack-mod 8 --max-skew 2
 
-### Prerequisites
+## Prerequisites
 
 - Python 3.7+
 - [kubernetes-scheduler-simulator](https://github.com/qzweng/kubernetes-scheduler-simulator)
 
 
-### Integration
+## Integration
 
 To use with [kubernetes-scheduler-simulator](https://github.com/qzweng/kubernetes-scheduler-simulator), 
 
