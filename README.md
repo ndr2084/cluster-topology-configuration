@@ -13,7 +13,7 @@ A simple way to add racks to a cluster. Compatible with [qzweng/kubernetes-sched
 - **Extensible:** Designed to support future topology extensions.
 
 ## Quick-Start
-- **In your terminal:** $ python3 process_openb_dir.py ./openb_pod_list_cpu037/ --rack-mod 8 --max-skew 2
+- **Enter In Terminal:** $ python3 process_openb_dir.py ./openb_pod_list_cpu037/ --rack-mod 8 --max-skew 2
 
 ## Prerequisites
 
