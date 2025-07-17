@@ -1,5 +1,3 @@
-Certainly! Here’s a README.md template for your repository **ndr2084/cluster-topology-configuration** based on the description and its Python composition. You can further customize it as needed.
-
 ---
 
 # cluster-topology-configuration
