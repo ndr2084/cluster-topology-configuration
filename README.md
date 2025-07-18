@@ -31,7 +31,7 @@ Features
     Process Topology: One-click button executes process_openb_dir.py with your chosen options, displaying output in the browser.
     Run Simulation: Launches a full simulation pipeline, including directory setup, config generation, execution, and analysis, with output shown in the app.
 
-Usage
+## Usage
 
     Install Streamlit if not yet done:
     Code
@@ -49,16 +49,11 @@ Code
         Click "Process Topology" to generate topology data.
         Click "Run Simulation" to launch a full simulation and see results live.
 
-Requirements
+## Requirements
 
     Python 3.7+
     streamlit
     kubernetes-scheduler-simulator
-
-
-## Integration
-
-To use with [kubernetes-scheduler-simulator](https://github.com/qzweng/kubernetes-scheduler-simulator), 
 
 ## License
 
