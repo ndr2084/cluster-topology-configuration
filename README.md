@@ -23,21 +23,21 @@ docker run -p 8501:8501 simulator-with-ui
 # Streamlit Web UI (app.py)
 
 app.py has been added to provide a modern web interface for running and customizing cluster topology and simulation experiments.
-Features
-
-    Streamlit-based GUI: Easily accessible interface for configuring racks, skew, pod lists, and scheduler policies.
-    Interactive Sidebar: Select the number of racks and skew value using sliders (can be enabled/disabled).
-    Pod List & Policy Selection: Dropdown menus to choose pod list, scheduling policy, GPU selection mode, dimension extension, and normalization.
-    Process Topology: One-click button executes process_openb_dir.py with your chosen options, displaying output in the browser.
-    Run Simulation: Launches a full simulation pipeline, including directory setup, config generation, execution, and analysis, with output shown in the app.
-
+```
+Features: 
+    ✅Streamlit-based GUI: Easily accessible interface for configuring racks, skew, pod lists, and scheduler policies.
+    ✅Interactive Sidebar: Select the number of racks and skew value.
+    ✅Pod List & Policy Selection: Dropdown menus to choose configuration options
+    ✅Process Topology: One-click button executes process_openb_dir.py with your chosen options
+    ✅Run Simulation: Launches a full simulation pipeline
+```
 ## Usage
-
-```Use the web interface to:
-✅Select pod list, scheduling policy, and other options.
-✅Customize racks and skew (enable in sidebar).
-✅Click "Process Topology" to generate topology data.
-✅Click "Run Simulation" to launch a full simulation and see results live.
+```
+Use the web interface to:
+    ✅Select pod list, scheduling policy, and other options.
+    ✅Customize racks and skew (enable in sidebar).
+    ✅Click "Process Topology" to generate topology data.
+    ✅Click "Run Simulation" to launch a full simulation and see results live.
 ```
 ## License
 
