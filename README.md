@@ -20,6 +20,41 @@ A simple way to add racks to a cluster. Compatible with [qzweng/kubernetes-sched
 - Python 3.7+
 - [kubernetes-scheduler-simulator](https://github.com/qzweng/kubernetes-scheduler-simulator)
 
+New: Streamlit Web UI (app.py)
+
+A new file, app.py, has been added to provide a modern web interface for running and customizing cluster topology and simulation experiments.
+Features
+
+    Streamlit-based GUI: Easily accessible interface for configuring racks, skew, pod lists, and scheduler policies.
+    Interactive Sidebar: Select the number of racks and skew value using sliders (can be enabled/disabled).
+    Pod List & Policy Selection: Dropdown menus to choose pod list, scheduling policy, GPU selection mode, dimension extension, and normalization.
+    Process Topology: One-click button executes process_openb_dir.py with your chosen options, displaying output in the browser.
+    Run Simulation: Launches a full simulation pipeline, including directory setup, config generation, execution, and analysis, with output shown in the app.
+
+Usage
+
+    Install Streamlit if not yet done:
+    Code
+
+pip install streamlit
+
+Start the app in your terminal:
+Code
+
+    streamlit run app.py
+
+    Use the web interface to:
+        Select pod list, scheduling policy, and other options.
+        Customize racks and skew (enable in sidebar).
+        Click "Process Topology" to generate topology data.
+        Click "Run Simulation" to launch a full simulation and see results live.
+
+Requirements
+
+    Python 3.7+
+    streamlit
+    kubernetes-scheduler-simulator
+
 
 ## Integration
 
