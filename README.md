@@ -33,12 +33,12 @@ Features
 
 ## Usage
 
-Use the web interface to:
+```Use the web interface to:
     ✅Select pod list, scheduling policy, and other options.
     ✅Customize racks and skew (enable in sidebar).
     ✅Click "Process Topology" to generate topology data.
     ✅Click "Run Simulation" to launch a full simulation and see results live.
-
+```
 ## License
 
 This project is licensed under the MIT License.
