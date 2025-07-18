@@ -64,14 +64,14 @@ def process_directory(input_dir: str, rack_mod: int, max_skew: int):
 
     # Process Nodes (add racks)
     nodes_with_racks = add_rack_labels(nodes, rack_mod=rack_mod)
-    node_output_file = node_file.with_name(node_file.stem + "_with_racks.yaml")
+    node_output_file = node_file.with_name(node_file.stem + "_with_rack-quantity"+str(rack_mod)+".yaml")
     with open(node_output_file, "w") as f:
         yaml.dump_all(nodes_with_racks, f, sort_keys=False)
     print(f"✅ Modified Node YAML → {node_output_file}")
 
     # Process Pods (add constraints)
     pods_with_constraints = add_topology_constraints(pods, topology_key="topology.kubernetes.io/rack", max_skew=max_skew)
-    pod_output_file = pod_file.with_name(pod_file.stem + "_with_constraints.yaml")
+    pod_output_file = pod_file.with_name(pod_file.stem + "_with_skew-value"+str(max_skew)+".yaml" )
     with open(pod_output_file, "w") as f:
         yaml.dump_all(pods_with_constraints, f, sort_keys=False)
     print(f"✅ Modified Pod YAML → {pod_output_file}")
