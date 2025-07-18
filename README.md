@@ -33,21 +33,11 @@ Features
 
 ## Usage
 
-    Install Streamlit if not yet done:
-    Code
-
-pip install streamlit
-
-Start the app in your terminal:
-Code
-
-    streamlit run app.py
-
-    Use the web interface to:
-        Select pod list, scheduling policy, and other options.
-        Customize racks and skew (enable in sidebar).
-        Click "Process Topology" to generate topology data.
-        Click "Run Simulation" to launch a full simulation and see results live.
+Use the web interface to:
+    ✅Select pod list, scheduling policy, and other options.
+    ✅Customize racks and skew (enable in sidebar).
+    ✅Click "Process Topology" to generate topology data.
+    ✅Click "Run Simulation" to launch a full simulation and see results live.
 
 ## License
 
