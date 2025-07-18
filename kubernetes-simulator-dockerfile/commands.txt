@@ -1,0 +1,2 @@
+[1] docker build -t simulator-with-ui .
+[2] docker run -p 8501:8501 simulator-with-ui
