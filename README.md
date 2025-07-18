@@ -18,10 +18,6 @@ docker build -t simulator-with-ui .
 docker run -p 8501:8501 simulator-with-ui
 ```
 
-## Prerequisites
-
-- Python 3.7+
-- [kubernetes-scheduler-simulator](https://github.com/qzweng/kubernetes-scheduler-simulator)
 
 # Streamlit Web UI (app.py)
 
