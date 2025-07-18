@@ -20,9 +20,9 @@ A simple way to add racks to a cluster. Compatible with [qzweng/kubernetes-sched
 - Python 3.7+
 - [kubernetes-scheduler-simulator](https://github.com/qzweng/kubernetes-scheduler-simulator)
 
-##New: Streamlit Web UI (app.py)##
+# Streamlit Web UI (app.py)
 
-A new file, app.py, has been added to provide a modern web interface for running and customizing cluster topology and simulation experiments.
+app.py has been added to provide a modern web interface for running and customizing cluster topology and simulation experiments.
 Features
 
     Streamlit-based GUI: Easily accessible interface for configuring racks, skew, pod lists, and scheduler policies.
