@@ -14,6 +14,7 @@ A simple way to add racks to a cluster. Compatible with [qzweng/kubernetes-sched
 
 ## Quick-Start
 ```
+cd kubernetes-simulator-dockerfile
 docker build -t simulator-with-ui .
 docker run -p 8501:8501 simulator-with-ui
 ```
