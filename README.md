@@ -48,12 +48,6 @@ Code
         Click "Process Topology" to generate topology data.
         Click "Run Simulation" to launch a full simulation and see results live.
 
-## Requirements
-
-    Python 3.7+
-    streamlit
-    kubernetes-scheduler-simulator
-
 ## License
 
 This project is licensed under the MIT License.
